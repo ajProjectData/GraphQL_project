@@ -21,7 +21,3 @@ console.log(ans);
 server.listen().then(({url,port})=>{
     console.log("Start Server Port:- ",port)
 })
-
-// jadoo0oooooooooooooo
-
-// kem chodu kevu nathi???
