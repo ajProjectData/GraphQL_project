@@ -18,5 +18,5 @@ const server = new ApolloServer({typeDefs,resolvers})
 // console.log(ans);
 
 server.listen().then(({url,port})=>{
-    console.log("start Server port:- ",port)
+    console.log("Start Server Port:- ",port)
 })
