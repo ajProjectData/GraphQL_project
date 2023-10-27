@@ -8,14 +8,14 @@ mongoose.connect("mongodb://127.0.0.1:27017/demoProject")
 
 const server = new ApolloServer({typeDefs,resolvers})
 
-// let ans = ""
-// for(let i=0 ; i<5 ;i++){
-//     for(let j=0 ; j<=i ; j++){
-//         ans += i
-//     }
-//     ans += "\n"
-// }
-// console.log(ans);
+let ans = ""
+for(let i=0 ; i<5 ;i++){
+    for(let j=0 ; j<=i ; j++){
+        ans += i
+    }
+    ans += "\n"
+}
+console.log(ans);
 
 server.listen().then(({url,port})=>{
     console.log("Start Server Port:- ",port)
